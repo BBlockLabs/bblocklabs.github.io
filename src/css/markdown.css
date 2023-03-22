@@ -1,0 +1,16 @@
+.markdown h1:first-child {
+    @apply title-1;
+}
+
+.markdown h2 {
+    @apply title-3;
+}
+
+.markdown h3 {
+    @apply title-5;
+}
+
+.markdown blockquote {
+    @apply !border-l-[3px] !border-black dark:!border-white !pl-[29px] !pr-0 !py-0 !mb-5;
+    @apply !text-base !text-black dark:!text-white !font-normal;
+}

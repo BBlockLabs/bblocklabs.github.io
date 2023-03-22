@@ -1,0 +1,75 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+@import 'tailwindcss/base';
+@import './resets.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    html {
+        @apply font-sans font-normal text-base;
+    }
+
+    body {
+        @apply bg-white text-dark-blue dark:bg-black dark:text-white overflow-auto;
+    }
+
+    #__docusaurus {
+        /* @apply container; */
+    }
+
+    a {
+        @apply no-underline text-black-warm underline hover:text-yellow dark:text-white dark:hover:text-yellow;
+    }
+
+    ::selection {
+        @apply bg-yellow text-white;
+    }
+
+    a.external {
+        position: relative;
+    }
+
+    a.external:after {
+        content: '\2197';
+        /* position: absolute; */
+        bottom: 0.166em;
+        right: 0;
+        font-size: 0.85em;
+        line-height: 1;
+    }
+}
+
+
+.theme-doc-sidebar-container > div {
+    margin-top: 5.75rem;
+}
+
+ul.table-of-contents li ul {
+    margin: 0;
+    padding: 0 0 0 1.5em !important;
+}
+
+ul.table-of-contents li ul li {
+    margin: 0;
+    padding: 1em 0 0 .5em !important;
+}
+
+.table-of-contents__link--active, [data-theme="dark"] .table-of-contents__link--active {
+    color: var(--ifm-link-color);
+}
+
+main ul {
+    list-style: revert;
+    margin: revert;
+    padding: 0 1rem 1rem;
+}
+
+article a,
+[data-theme="dark"] article a {
+    color: var(--ifm-link-color);
+}
+
+main .alert {
+    --ifm-link-color: inherit;
+}
