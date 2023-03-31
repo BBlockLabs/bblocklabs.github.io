@@ -9,6 +9,9 @@ This guide explains how to install and run an BonusBlock full node.
 If you have already tried running a BonusBlock node before, you may want to remove previous configuration and data, refer to [Cleaning up](../becoming-a-validator/troubleshooting#cleaning-up).
 :::
 
+:::note
+Before installation make sure that your system meets the hardware requirements and all the required software is installed. See  [Prerequisites](../running-a-node/prerequisites).
+:::
 
 ## Build `bonus-blockd` from source
 
