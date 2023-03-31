@@ -17,6 +17,10 @@ The following hardware requirements are expected:
 
 \* Storage size requirement will increase as new blocks are generated.
 
+:::note
+For better security we strongly advice to create a non-privileged user for running the node
+:::
+
 ## Installing Prerequisites
 
 ```bash

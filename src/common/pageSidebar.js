@@ -38,6 +38,15 @@ const pageSidebar = [
             {type: 'ref', id: 'becoming-a-validator/troubleshooting', href: 'docs/becoming-a-validator/troubleshooting', label: 'Troubleshooting'},
         ],
     },
+    {
+        type: 'category',
+        collapsible: true,
+        collapsed: true,
+        label: 'Connecting to the network',
+        items: [
+            {type: 'ref', id: 'connecting-to-the-network/testnet', href: 'docs/connecting-to-the-network/testnet', label: 'Testnet (blocktopia-01)'},
+        ],
+    },
 ];
 
 export default pageSidebar;

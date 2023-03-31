@@ -12,7 +12,7 @@ as you are following this tutorial. If you created dedicated user, please replac
 
 Create the new systemd service file by running:
 ```bash
-tee /etc/systemd/system/bonusblock.service > /dev/null <<EOF
+sudo tee /etc/systemd/system/bonusblock.service > /dev/null <<EOF
 [Unit]
 Description=BonusBlock Node
 After=network-online.target
@@ -29,9 +29,9 @@ EOF
 
 ## Register and start the service
 ```bash
-systemctl daemon-reload
-systemctl enable bonusblock
-systemctl restart bonusblock
+sudo systemctl daemon-reload
+sudo systemctl enable bonusblock
+sudo systemctl restart bonusblock
 ```
 
 ## View the live log of the service

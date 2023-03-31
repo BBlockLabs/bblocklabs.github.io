@@ -31,3 +31,20 @@ It is the only way to recover your account if you ever forget your password.
 
 picnic able angle merit arctic route resemble purity bone become match firm enjoy stem dry cake add elite filter point try wet earn blind
 ```
+## Removing keys
+To remove the key use the following command:
+```bash
+bonus-blockd keys remove [account-name]
+```
+
+## Resetting the keychain
+If you lost the password for the keychain you will have to remove the key hash and all the keys that were encrypted with it
+:::warning
+The following commands will remove all previously created keys!
+:::
+
+```bash
+rm ~/.bonusblock/keyhash
+rm ~/.bonusblock/*.address
+rm ~/.bonusblock/*.info
+```

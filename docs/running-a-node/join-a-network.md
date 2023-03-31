@@ -10,7 +10,7 @@ The first step is to download the Genesis file, by fetching it from an available
 
 ```bash
 cd $HOME
-curl https://[node-address]/genesis? | jq '.result.genesis' > ~/.bonusblock/config/genesis.json
+curl https://[NODE-ADDRESS]/genesis? | jq '.result.genesis' > ~/.bonusblock/config/genesis.json
 ```
 As an example you can get it from BonusBlock sentry node:
 ```bash
@@ -21,7 +21,14 @@ curl https://bonusblock-testnet.alter.network/genesis? | jq '.result.genesis' > 
 ## Start bonus-blockd
 Start the `bonus-blockd` and join the network.
 
-Add known working sentry nodes to `config.toml`.
+Add known working comma separated sentry nodes to `config.toml`.
+See the full list of testnet nodes at [Testnet (blocktopia-01)](../connecting-to-the-network/testnet)
+```bash
+PEERS=[NODE-ID]@[NODE-ADDRESS]:[PORT],[NODE1-ID]@[NODE1-ADDRESS]:[PORT]
+sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.bonusblock/config/config.toml
+```
+
+As an example to connect to BonusBlock sentry node use:
 ```bash
 PEERS=e5e04918240cfe63e20059a8abcbe62f7eb05036@bonusblock-testnet-p2p.alter.network:26656
 sed -i.bak -e "s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.bonusblock/config/config.toml
