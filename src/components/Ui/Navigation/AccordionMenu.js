@@ -21,7 +21,7 @@ export default ({className, label, items, goTo}) => (
                 <Disclosure.Panel as="div" className="grid grid-cols-1 pl-8">
                     {items.map(item => {
                         if (item.type === 'category') {
-                            return <AccordionMenu key={`accordion-menu-${label}-${item.label}`} className="py-2" label={item.label} items={item.items}/>;
+                            return <AccordionMenu key={`accordion-menu-${label}-${item.label}`} className="py-2" label={item.label} items={item.items} goTo={goTo}/>;
                         }
                         return (
                             <div key={`accordion-menu-${label}-${item.label}`} className="py-2">

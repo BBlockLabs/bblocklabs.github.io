@@ -1,9 +1,6 @@
----
-sidebar_position: 4
----
-
 # BonusBlock Media Kit
 
+-----------------------
 ## Classic Logo
 [Download](../assets/bonusblock-classic-logo.zip)
 

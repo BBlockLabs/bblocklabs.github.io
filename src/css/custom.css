@@ -73,3 +73,8 @@ article a,
 main .alert {
     --ifm-link-color: inherit;
 }
+
+article hr {
+    height: 1px;
+    margin-bottom: 1em;
+}

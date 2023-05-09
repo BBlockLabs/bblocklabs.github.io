@@ -20,6 +20,9 @@ module.exports = {
         locales: ['en-GB']
     },
     themeConfig: {
+        imageZoom: {
+            selector: 'article img',
+        },
         navbar: {
             title: 'Docs',
         },
@@ -100,6 +103,7 @@ module.exports = {
         ],
     ],
     plugins: [
+        'plugin-image-zoom',
         async function docusaurusTailwindcssPlugin(context, options) {
             return {
                 name: 'docusaurus-tailwindcss',

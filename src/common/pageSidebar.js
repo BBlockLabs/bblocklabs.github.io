@@ -5,7 +5,20 @@ const pageSidebar = [
         collapsed: true,
         label: 'Overview',
         items: [
-            {type: 'ref', id: 'overview/about', href: 'docs/overview/about', label: 'About'},
+            {
+                type: 'category',
+                collapsible: true,
+                collapsed: false,
+                label: 'About',
+                items: [
+                    {type: 'ref', id: 'overview/about', href: 'docs/overview/about', label: 'About BonusBlock'},
+                    {type: 'ref', id: 'overview/about/bonusblock-economy', href: 'docs/overview/about/bonusblock-economy', label: 'The BonusBlock Economy'},
+                    {type: 'ref', id: 'overview/about/market-landscape', href: 'docs/overview/about/bonusblock-economy', label: 'Market Landscape'},
+                    {type: 'ref', id: 'overview/about/token-utilities', href: 'docs/overview/about/token-utilities', label: 'Token Utilities'},
+                    {type: 'ref', id: 'overview/about/core-team', href: 'docs/overview/about/core-team', label: 'Core Team'},
+                    {type: 'ref', id: 'overview/about/roadmap', href: 'docs/overview/about/roadmap', label: 'Roadmap'},
+                ],
+            },
             {type: 'ref', id: 'overview/connect-with-community', href: 'docs/overview/connect-with-community', label: 'Connect With Community'},
             {type: 'ref', id: 'overview/how-rewarding-works', href: 'docs/overview/how-rewarding-works', label: 'How Rewarding Works'},
         ],

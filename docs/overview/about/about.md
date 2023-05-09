@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
- # About BonusBlock
+# About BonusBlock
 
 -----------------------
 When it comes to blockchain networks and dApps, we can find many. The level of sophistication of how they work and how they incentivize users is different. BonusBlock is a simple, yet unique blockchain network that rewards users for on-chain activity across Web3 and provides an incentive to build healthier relationships, loyalty, and community engagement with project stakeholders.
