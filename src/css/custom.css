@@ -70,6 +70,10 @@ article a,
     color: var(--ifm-link-color);
 }
 
+a.menu__link--active {
+    color: var(--ifm-link-color);
+}
+
 main .alert {
     --ifm-link-color: inherit;
 }
@@ -77,4 +81,8 @@ main .alert {
 article hr {
     height: 1px;
     margin-bottom: 1em;
+}
+
+[data-theme="dark"] .medium-zoom-overlay {
+    background-color: var(--ifm-background-color) !important;
 }

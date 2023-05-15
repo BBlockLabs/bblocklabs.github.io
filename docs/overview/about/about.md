@@ -8,15 +8,24 @@ sidebar_position: 1
 When it comes to blockchain networks and dApps, we can find many. The level of sophistication of how they work and how they incentivize users is different. BonusBlock is a simple, yet unique blockchain network that rewards users for on-chain activity across Web3 and provides an incentive to build healthier relationships, loyalty, and community engagement with project stakeholders.
 
 ## The mission
-
 Primarily the mission is to assist in Web3 adoption by supporting networks and decentralized application users with rewards determined by their on-chain activity.
 
 Rewards play an important role in incentivizing user engagement with blockchain-based products and can help to increase overall adoption and usage of the network. By providing users with incentives for their activity, blockchain-based products can create a more engaging and rewarding user experience, and improve relationships and loyalty towards users, which can help to drive growth and success for the network and decentralized applications. Such an approach will engage projects to reward users who are most active on a daily basis, as well as compete with other projects for their users' trust.
 
+## General overview
+### Growing Demand for Web3 Products and Services
+The adoption of blockchain technology and decentralized finance is accelerating at an unprecedented pace, creating a vast array of new products and services, such as decentralized applications (dApps), decentralized exchanges (DEXs), and tokenized assets. As the market continues to expand, the competition for user attention and engagement intensifies, driving the need for effective marketing strategies tailored to the unique characteristics of the Web3 ecosystem.
+
+### Limitations of Traditional Marketing Channels
+Traditional marketing channels, such as social media platforms, have been losing their impact on promoting on-chain interactions due to several reasons:
+- Information Overload: Users are exposed to a constant stream of information, making it difficult for Web3 products and services to stand out and capture user attention.
+- Mismatched Incentives: Social media platforms primarily focus on user engagement within their platforms, rather than promoting off-platform activities, such as on-chain interactions.
+- Centralized Control: Centralized social media platforms have the power to control content visibility and distribution, which may not align with the principles of decentralization and user empowerment that underpin the Web3 ecosystem.
+
+### Importance of On-Chain Interactions
+In the Web3 context, on-chain interactions play a vital role in driving user engagement, as they offer tangible benefits to users, such as earning rewards or influencing governance decisions. By focusing on incentivizing on-chain activities, marketing protocols can directly impact user behavior and foster a sense of community and belonging, which is essential for long-term user retention and network growth.
 
 ## Architectural Overview
-
-
 BonusBlock is a Cosmos SDK blockchain powered by <a className="external" href="https://tendermint.com/" target="_blank">Tendermint</a>. The network uses modified Cosmos modules to manage inflation and rewards system, including:
 - Minting - Responsible for minting tokens and managing inflation.
 - CosmWasm - A runtime for WebAssembly Smart Contracts.

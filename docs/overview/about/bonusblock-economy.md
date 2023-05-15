@@ -7,9 +7,6 @@ sidebar_position: 2
 -----------------------
 Incentivising On-Chain Activity Campaigns for Web3 Users: A Novel Marketing Protocol for Enhanced Ecosystem Growth
 
-## Abstract
-In the emerging era of decentralized finance and Web3, marketing strategies and user incentivization models have evolved to meet the needs of this rapidly growing ecosystem. This paper examines a novel marketing protocol that offers incentivized on-chain activity campaigns for Web3 users. We analyze the economic implications of implementing such a protocol, where Web3 networks and protocols can deploy campaigns to encourage users to interact with on-chain products, generating activity, and receiving rewards in the form of fungible and non-fungible tokens (NFTs). Our findings suggest that this marketing model can lead to increased network effects, enhanced user engagement, and ultimately, foster economic growth within the Web3 ecosystem.
-
 ## Introduction
 In the emerging era of decentralized finance and Web3, marketing strategies and user incentivization models have evolved to meet the needs of this rapidly growing ecosystem. This paper examines a novel marketing protocol that offers incentivized on-chain activity campaigns for Web3 users. We analyze the economic implications of implementing such a protocol, where Web3 networks and protocols can deploy campaigns to encourage users to interact with on-chain products, generating activity, and receiving rewards in the form of fungible and non-fungible tokens (NFTs). Our findings suggest that this marketing model can lead to increased network effects, enhanced user engagement, and ultimately, foster economic growth within the Web3 ecosystem.
 
