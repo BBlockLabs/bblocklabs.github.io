@@ -46,7 +46,6 @@ module.exports = {
                 children: [
                     {name: 'About BonusBlock', value: '/docs/overview/about', img: '/img/illustrations/about-us.svg'},
                     {name: 'Connect with Community', value: '/docs/overview/connect-with-community', img: '/img/illustrations/connect-community.svg'},
-                    {name: 'How Rewarding works', value: '/docs/overview/how-rewarding-works', img: '/img/illustrations/rewards.svg'},
                     {name: 'Media Kit', value: '/docs/overview/media-kit', img: '/img/illustrations/media-kit.svg'},
                 ],
             },

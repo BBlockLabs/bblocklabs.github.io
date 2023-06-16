@@ -20,7 +20,6 @@ const pageSidebar = [
                 ],
             },
             {type: 'ref', id: 'overview/connect-with-community', href: 'docs/overview/connect-with-community', label: 'Connect With Community'},
-            {type: 'ref', id: 'overview/how-rewarding-works', href: 'docs/overview/how-rewarding-works', label: 'How Rewarding Works'},
         ],
     },
     {
