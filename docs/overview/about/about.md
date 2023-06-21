@@ -26,64 +26,12 @@ Traditional marketing channels, such as social media platforms, have been losing
 In the Web3 context, on-chain interactions play a vital role in driving user engagement, as they offer tangible benefits to users, such as earning rewards or influencing governance decisions. By focusing on incentivizing on-chain activities, marketing protocols can directly impact user behavior and foster a sense of community and belonging, which is essential for long-term user retention and network growth.
 
 ## Architectural Overview
-BonusBlock is a Cosmos SDK blockchain powered by <a className="external" href="https://tendermint.com/" target="_blank">Tendermint</a>. The network uses modified Cosmos modules to manage inflation and rewards system, including:
-- Minting - Responsible for minting tokens and managing inflation.
-- CosmWasm - A runtime for WebAssembly Smart Contracts.
-- Staking - Manages the voting power of validators.
-- Governance - Supports the one-vote-per-token voting and governance system for token holders.
-- IBC - Inter-Blockchain Communication protocol that enables asset transfers across Cosmos blockchains.
-
-In addition to using the predefined Cosmos modules, BonusBlock uses four custom modules for additional features of the network:
-- Machine Learning interface - tracks and summarises data from blockchain oracles for each wallet activity, classifying the actions per action, per product, and per network.
-- Wallet Activity Tracking - This module enables to identify swiftly the wallet interaction
-- Reward system - deploying on-chain data about distributed rewards based on activity, generating smart contract per user with all relevant data
-- Native token multiplier - an algorithm that determines the increased reward distribution based on how many tokens the user is staking. The larger the amount of tokens staked, the higher the multiplier of rewards
-
-BonusBlock creates a Cosmos SDK-based chain with support for WASM smart contract execution that rewards users for doing their daily on-chain activity. The combination of both predefined Cosmos modules and custom BonusBlock modules allows the network to deliver the following features:
-- Reward system for users' activity
-- Smart interface with Machine Learning implementation to follow on-chain activity for each user
-- Manage smart contract data as a user
-- Multiplier system for larger reward distribution based on staking
-
 The network is using blockchain oracles to retrieve on-chain data activity for all wallets on Web3. The key to the oracle's functionality is its ability to provide reliable and accurate data to the blockchain. To achieve this, oracles use a variety of methods to verify the data they collect, including cryptographic proofs, consensus algorithms, and reputation systems.
 
-
 ## Smart Contracts
-
 The BonusBlock blockchain supports Smart Contract deployment. Any CosmWasm smart contract flavor that is supported by Cosmos SDK can be deployed and run on the BonusBlock. CosmWasm also allows multi-chain contracts to be built, so you can migrate existing contracts to the BonusBlock chain due to its high interoperability and independence from the host.
 
-
-## The economy of the network
-
-BonusBlock focuses to resolve Web3 adoption with rewarding users based on their activity on-chain. The inflation coming from staking covers minimal distribution mechanisms of the network and incentives users to stake more. Meaning, users staking $BONUS will unlock a better multiplier for their rewards calculation algorithm provided by one of the modules on BonusBlock network. This is similar to how users are being rewarded by securing the network security and consensus.
-
-BonusBlocks intends to implement three mechanisms for Web3 networks and projects to utilize:
-
-1. 	BonusBlock reward distribution based on inflation rewards
-2. 	Share of gas fees generated
-3. 	External reward pool (optional to networks and projects)
-
-BonusBlocks supports every user on Web3 to register their profile and add their wallet to receive on a weekly basis rewards based on their on-chain activity. Users will be able to register and connect their new wallets. If users want to track more than five wallets, they will need to make sure to meet criteria to unlock another 5 wallet connections. This approach mitigates malicious parties.
-
-### Reward Distribution based on inflation rewards
-
-The registered user reward is compensated by the inflationary state of the network. The inflation is set to be between 10 – 24%. Calculation mechanism based on various types of on-chain activity that are grouped by:
-Network interactions (governance and interaction with staking)
-Decentralised application interactions:
-
-* NFT – mint, sell, burn, auction (regular NFT transfers are excluded)
-* DeFi – swapping, liquidity providing, bonding, Loan products - borrower actions, creditor actions
-* Gaming – interaction with the platform, in-game purchases with wallet
-* Metaverse – interacton with the platform
-* Social platform interactions and on-chain activity
-* Other (un-categorised values that will be defined within time of setups)
-
-### Shared gas fees
-
-Generated gas fees are part of the rewards distributed to the users, meaning, BonusBlock activity on-chain will be rewarded to the users generating transactions. Part of the fees will be distributed to the BonusBlock treasury for operational costs coverage.
-
 ### Reward pool
-
 Any listed blockchain network or decentralized application that is supported by BonusBlock network will be able to add an extra reward pool for their users. Projects can create a smart contract pool that is connected with BonusBlock users activity, where distribution is handled by on-chain activity data. Extra incentivisation can attract more users to the network and decentralised application use. New projects with airdrops can use this pool to incentivise more on-chain activity instead of one-time ask.
 
 **Case Study #1**
@@ -98,6 +46,5 @@ A DEX is launching a new feature on the platform, for instance, lending. The pla
 </blockquote>
 
 ## Governance state
-
 Governance is the process by which BonusBlock network participants and token holders can influence the future direction of the protocol through proposals and on-chain voting.
 In addition to fees, accruing value, rewards, access to premium services and staking, BonusBlock’s native token $BONUS is used for governance. This governance model helps maintain and support BonusBlock’s decentralized community while ensuring fair and transparent participation. All holders of the native token can propose changes to the BonusBlock’s network and vote on active proposals. Proposals that reach a consensus threshold are adopted, whether a specific feature or even changing the governance system itself.
