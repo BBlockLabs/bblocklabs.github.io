@@ -55,7 +55,7 @@ export default ({isOpen, onClose}) => {
                         </div>
                     </div>
                     <div className="flex-1 py-6 min-h-0">
-                        <div className="h-full pointer-events-auto overflow-y-auto">
+                        <div className="h-full pointer-events-auto mobile-drawer overflow-y-auto">
                             <MobileMenu menu={pageSidebar} goTo={goTo}/>
                         </div>
                     </div>

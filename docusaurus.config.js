@@ -1,7 +1,7 @@
 require('dotenv').config();
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer').themes.github;
+const darkCodeTheme = require('prism-react-renderer').themes.dracula;
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
@@ -44,39 +44,14 @@ module.exports = {
             {
                 name: 'overview',
                 children: [
-                    {name: 'About BonusBlock', value: '/docs/overview/about', img: '/img/illustrations/about-us.svg'},
-                    {name: 'Connect with Community', value: '/docs/overview/connect-with-community', img: '/img/illustrations/connect-community.svg'},
-                    {name: 'Media Kit', value: '/docs/overview/media-kit', img: '/img/illustrations/media-kit.svg'},
+                    {name: 'Explore BonusBlock', value: '/docs/about', img: '/img/illustrations/about-us.svg'},
+                    {name: 'Connect with Community', value: '/docs/connect-with-community', img: '/img/illustrations/connect-community.svg'},
+                    {name: 'Media Kit', value: '/docs/media-kit', img: '/img/illustrations/media-kit.svg'},
                 ],
             },
             {
                 name: 'nodes',
-                children: [
-                    {
-                        name: 'Prerequisites',
-                        value: '/docs/running-a-node/prerequisites',
-                        icon: 'iconoir-clipboard-check',
-                        description: 'Installation requirements for validator nodes',
-                    },
-                    {
-                        name: 'Running a node',
-                        value: '/docs/running-a-node/node-installation',
-                        icon: 'iconoir-code-brackets-square',
-                        description: 'Installation of the BonusBlock node',
-                    },
-                    {
-                        name: 'Become a validator',
-                        value: '/docs/becoming-a-validator/running-a-validator',
-                        icon: 'iconoir-add-hexagon',
-                        description: 'Learn how to upgrade your node to a validator',
-                    },
-                    {
-                        name: 'Troubleshooting',
-                        value: '/docs/becoming-a-validator/troubleshooting',
-                        icon: 'iconoir-help-circle',
-                        description: 'Solutions to the most common problems that may occur during the node runtime',
-                    },
-                ],
+                children: [],
             },
         ],
     },
@@ -86,9 +61,10 @@ module.exports = {
             {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
+                    // sidebarItemsGenerator: require('./sidebars.js'),
                     breadcrumbs: true,
                     showLastUpdateAuthor: false,
-                    showLastUpdateTime: true
+                    showLastUpdateTime: true,
                 },
                 blog: false,
                 theme: {

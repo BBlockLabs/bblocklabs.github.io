@@ -19,15 +19,14 @@ export default function Home() {
                 <div className="space-y-20">
                     <div>
                         <h1 className="hero-1 uppercase pb-4">
-                            Rewarding<br/><span className={'text-yellow'}>on-chain</span> activity!
+                            User oriented and AI driven protocol for <br /><span className={'text-yellow'}>on-chain</span> activity!
                         </h1>
                         <p className="title-4 max-w-5xl">
-                            Explore BonusBlock network how smart contracts are used to reward users across Web3!
+                            Explore BonusBlock in dedicated white-label solutions across Web3 to explore ecosystems and earn fees on the marketplace.
                         </p>
                     </div>
 
                     <CardsList items={overview}/>
-                    <CardsList heading="Become a Validator" items={validators}/>
                 </div>
             </main>
         </Layout>
